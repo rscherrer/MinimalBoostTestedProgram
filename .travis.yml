@@ -49,8 +49,8 @@ script:
  # Build and run and profile normal program
  - qmake ci_setup/setup.pro
  - make --silent release
- - time ./ci_setup/setup
- - gprof ci_setup/setup > gprof.log
+ - time ./setup
+ - gprof ./setup > gprof.log
  - head gprof.log -n 1000
   
  # Get code coverage
