@@ -10,7 +10,7 @@ int main() {
     std::string blabla = returnBlabla();
 
     std::cout << "Hello, World! " << blabla << ' ' << number << ' ' << boolean << '\n';
-    
+
     return 0;
 
 }
