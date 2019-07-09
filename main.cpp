@@ -9,6 +9,8 @@ int main() {
     bool boolean = returnTrue();
     std::string blabla = returnBlabla();
 
-    std::cout << "Hello, World!" << std::endl;
+    std::cout << "Hello, World! " << blabla << ' ' << number << ' ' << boolean << '\n';
+
     return 0;
+
 }
