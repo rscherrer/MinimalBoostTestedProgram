@@ -11,7 +11,8 @@ int main() {
     std::string blabla = returnBlabla();
     int one = returnOne();
 
-    std::cout << one << ' ' << blabla << ' ' << number << ' ' << boolean << ' ' << returnFalse() << '\n';
+    std::cout << one << ' ' << blabla << ' ' << number << ' ' << boolean << ' ' <<
+    returnFalse() << '\n';
 
     return 0;
 
