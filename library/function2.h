@@ -2,5 +2,6 @@
 #define PROGRAM_FUNCTION2_H
 
 bool returnTrue();
+bool returnFalse();
 
 #endif //PROGRAM_FUNCTION2_H
