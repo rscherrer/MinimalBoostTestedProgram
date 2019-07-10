@@ -12,6 +12,6 @@ set(
         function1.cpp
         function2.cpp
         function3.cpp
-)
+        function4.cpp function4.h)
 
 add_library(library STATIC ${SOURCE_FILES} ${HEADER_FILES})
