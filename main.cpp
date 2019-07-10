@@ -9,9 +9,9 @@ int main() {
     double number = return2();
     bool boolean = returnTrue();
     std::string blabla = returnBlabla();
-    std::string hello = returnHello();
+    int one = returnOne();
 
-    std::cout << hello << ' ' << blabla << ' ' << number << ' ' << boolean << '\n';
+    std::cout << one << ' ' << blabla << ' ' << number << ' ' << boolean << '\n';
 
     return 0;
 
