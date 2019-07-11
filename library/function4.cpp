@@ -1,7 +1,7 @@
 #include "function4.h"
 
-std::string returnHello()
+int returnOne()
 {
-    return "Hello world";
+    return 1;
 }
 

@@ -5,3 +5,9 @@ bool returnTrue()
 {
     return true;
 }
+
+// Function to return False
+bool returnFalse()
+{
+    return false;
+}
